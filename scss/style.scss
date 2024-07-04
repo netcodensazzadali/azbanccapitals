@@ -1,0 +1,54 @@
+@import "fonts";
+@import "mixin";
+@import "reset";
+@import "variables";
+@import "colors";
+@import "./components/back-to-top";
+@import "./components/global-button";
+@import "./components/title";
+@import "./components/header";
+@import "./components/banner";
+@import "./components/trading";
+@import "./components/open-trading";
+@import "./components/chooseus";
+@import "./components/account-types";
+@import "./components/earn";
+@import "./components/device-support";
+@import "./components/payment-methods";
+@import "./components/multistep";
+@import "./components/call-back";
+@import "./components/page-title";
+@import "./components/core-value";
+@import "./components/restriction";
+@import "./components/transaction";
+@import "./components/partnership";
+@import "./components/academy";
+@import "./components/footer";
+body {
+  background: $body-color;
+  font-family: $dm-sans-font;
+  font-weight: 400;
+  font-size: 16px;
+  color: $white;
+  padding-top: 85px;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 96px;
+  @media (max-width: 1199.98px) {
+    font-size: 60px;
+  }
+  @media (max-width: 575.98px) {
+    font-size: 45px;
+    line-height: 60px;
+  }
+}
+
+.custom-container {
+  max-width: 1200px;
+}

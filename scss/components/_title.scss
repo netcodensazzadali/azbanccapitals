@@ -1,0 +1,14 @@
+.title {
+  margin-bottom: 140px;
+  @media (max-width: 575.98px){
+    margin-bottom:80px;
+  }
+  h2 {
+    text-align: center;
+  }
+  p {
+    line-height: 27px;
+    color:$text-light-gray;
+    text-align: center;
+  }
+}

@@ -1,0 +1,26 @@
+.page-title {
+  background-color: $bg-light-black;
+
+  .card {
+    height: 360px;
+    justify-content: center;
+    border: 0;
+    @media (max-width: 991.98px) {
+      height: 250px;
+    }
+    h1 {
+      margin: 0;
+      background: linear-gradient(
+        269.41deg,
+        #cf9603 40%,
+        #eedc9b 49.45%,
+        #cf9603 60%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      text-shadow: 2px 5px 2px #00000033;
+    }
+  }
+}
